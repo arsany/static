@@ -16,6 +16,7 @@ pipeline {
                     echo "Multiline shell steps works too"
                     ls -lah
                  '''
+                 sh 'curl http://arsany-project3-udacity.s3-website.us-east-2.amazonaws.com/'
                }
              }
              }
